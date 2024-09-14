@@ -9,7 +9,7 @@ class TestVehicle(unittest.TestCase):
     
     def test_car(self):
         car = Car("Toyota", "Corolla", 4)
-        self.assertEqual(car.get_brand(), "Toyota")
+        self.assertEqual(car.get_brand(), 3)
         self.assertEqual(car.get_model(), "Corolla")
         self.assertEqual(car.start_engine(), "Toyota Corolla engine started with a key.")
 
